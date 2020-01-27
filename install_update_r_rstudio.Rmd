@@ -1,0 +1,78 @@
+---
+title: "Installing and Updating R, RStudio and R Packages"
+author: "Clay Ford"
+date: "January 27, 2020"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Download and Install R
+ 
+**Windows**:
+
+1. go to https://cloud.r-project.org/bin/windows/base/
+2. click the "Download R 3.6.2 for Windows" link.
+3. When the file finishes downloading, double-click to install. You should be able to just click "Next" to all dialogs to finish the installation.
+ 
+**Mac**:
+
+1. go to https://cloud.r-project.org/bin/macosx/
+2. click the link "R-3.6.2.pkg"
+3. When the file finishes downloading, double-click to install. You should be able to just click "Next" to all dialogs to finish the installation.
+ 
+**Linux**:
+
+1. Go to https://cloud.r-project.org/bin/linux/
+2. Go to the folder that most closely matches your distribution
+3. Follow the directions to install.
+ 
+## Download and Install RStudio Desktop
+ 
+1. go to https://rstudio.com/products/rstudio/download/#download
+2. Under Step 2 "Download RStudio Desktop" there should be a download option recommended for your system. Click the button to download RStudio Desktop.
+3. When the file finishes downloading, do what you would normally do to install a program on your system
+ 
+NOTE: make sure you download RStudio Desktop, not RStudio Server.
+
+## Download and Install R Packages
+
+R packages are collections of functions that extend the capabilities of R. Many packages are available through [https://cran.r-project.org/index.html](CRAN), the Comprehensive R Archive Network. Below are instructions for installing R packages from CRAN using RStudio. 
+
+1.	Open RStudio
+2.	In the menu, go to Tools...Install Packages.
+3.	In the Packages field enter the package name(s); separate multiple packages by space or comma
+4.	Click Install
+
+
+## Update R
+
+You don't actually "update" R, you install a new version. R is designed such that multiple versions can be installed side-by-side. If you only want the latest version of R installed, here's one approach to take:
+
+1. Uninstall the current version of R on your computer.
+2. Download the most recent version of R and install it.
+3. Open RStudio and click the Update button on the Packages tab to update packages.
+
+If using Windows, you will likely have a personal library where packages are installed. It's usually under `Documents\R\win-library`. The name of this folder will be the first two version numbers. If you have version 3.4.1 installed, it will be named 3.4. When you install version 3.5.0, a 3.5 folder will be created. What you'll want to do is copy packages from the 3.4 folder to the 3.5 folder and then update your packages. Or delete the 3.5 folder, rename the 3.4 folder to 3.5, and then update your packages. For more information see the Windows FAQ: https://cran.r-project.org/bin/windows/base/rw-FAQ.html#What_0027s-the-best-way-to-upgrade_003f 
+
+## Update RStudio
+
+RStudio will usually notify you when updates are available. The easiest thing to do is to click the "Quit and Download..." button on the notification and install the new version. Unlike R, this will overwrite the previous installation with the new installation. This is probably what you want. Unless you're a developer, you probably don't want multiple versions of RStudio on your computer. 
+
+You can also go to "Help...Check for Updates..." to see if there is a new version of RStudio available. 
+
+## Update R packages
+
+Many of the more popular R packages are under active development and updated on a regular basis. To check for and install package updates:
+
+1.	Open RStudio
+2.	In the menu, go to "Tools...Check for Package Updates..."
+3.	If new versions are available for packages you already have installed, they will be presented in a window 
+4.	It's probably easiest to just click Select All and then click Install Updates. That will update all packages.
+5.	If you get a message that asks "Do you want to install from sources the packages which need compilation?", the easiest thing to do is click No. See [this discussion](https://community.rstudio.com/t/meaning-of-common-message-when-install-a-package-there-are-binary-versions-available-but-the-source-versions-are-later/2431) for an explanation of the difference between clicking Yes or No.
+
