@@ -1,7 +1,7 @@
 ---
 title: "Installing and Updating R, RStudio and R Packages"
 author: "Clay Ford"
-date: "April 2021"
+date: "June 2021"
 output: 
   html_document:
     toc: true
@@ -17,13 +17,13 @@ knitr::opts_chunk$set(echo = TRUE)
 **Windows**:
 
 1. go to https://cloud.r-project.org/bin/windows/base/
-2. click the "Download R 4.0.5 for Windows" link.
+2. click the "Download R 4.1.0 for Windows" link.
 3. When the file finishes downloading, double-click to install. You should be able to just click "Next" to all dialogs to finish the installation.
  
 **Mac**:
 
 1. go to https://cloud.r-project.org/bin/macosx/
-2. click the link "R-4.0.5.pkg"
+2. click the link "R-4.1.0.pkg"
 3. When the file finishes downloading, double-click to install. You should be able to just click "Next" to all dialogs to finish the installation.
  
 **Linux**:
