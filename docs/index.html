@@ -252,13 +252,13 @@ div.tocify {
 <p><strong>Windows</strong>:</p>
 <ol style="list-style-type: decimal">
 <li>go to <a href="https://cloud.r-project.org/bin/windows/base/" class="uri">https://cloud.r-project.org/bin/windows/base/</a></li>
-<li>click the “Download R 4.1.0 for Windows” link.</li>
+<li>click the “Download R 4.1.1 for Windows” link.</li>
 <li>When the file finishes downloading, double-click to install. You should be able to just click “Next” to all dialogs to finish the installation.</li>
 </ol>
 <p><strong>Mac</strong>:</p>
 <ol style="list-style-type: decimal">
 <li>go to <a href="https://cloud.r-project.org/bin/macosx/" class="uri">https://cloud.r-project.org/bin/macosx/</a></li>
-<li>click the link “R-4.1.0.pkg”</li>
+<li>click the link “R-4.1.1.pkg”</li>
 <li>When the file finishes downloading, double-click to install. You should be able to just click “Next” to all dialogs to finish the installation.</li>
 </ol>
 <p><strong>Linux</strong>:</p>
@@ -352,6 +352,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
