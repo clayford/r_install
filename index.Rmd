@@ -1,7 +1,7 @@
 ---
 title: "Installing and Updating R, RStudio and R Packages"
 author: "Clay Ford"
-date: "January 2022"
+date: "September 2022"
 output: 
   html_document:
     toc: true
