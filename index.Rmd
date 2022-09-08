@@ -17,13 +17,13 @@ knitr::opts_chunk$set(echo = TRUE)
 **Windows**:
 
 1. go to https://cloud.r-project.org/bin/windows/base/
-2. click the "Download R 4.1.2 for Windows" link.
+2. click the "Download R 4.2.1 for Windows" link.
 3. When the file finishes downloading, double-click to install. You should be able to just click "Next" to all dialogs to finish the installation.
  
 **Mac**:
 
 1. go to https://cloud.r-project.org/bin/macosx/
-2. click the link "R-4.1.2.pkg"
+2. click the link "R-4.2.1.pkg"
 3. When the file finishes downloading, double-click to install. You should be able to just click "Next" to all dialogs to finish the installation.
  
 **Linux**:
@@ -57,8 +57,6 @@ You don't actually "update" R, you install a new version. R is designed such tha
 1. Uninstall the current version of R on your computer.
 2. Download the most recent version of R and install it.
 3. Open RStudio and click the Update button on the Packages tab to update packages.
-
-If using Windows, you will likely have a personal library where packages are installed. It's usually under `Documents\R\win-library`. The name of this folder will be the first two version numbers. If you have version 3.4.1 installed, it will be named 3.4. When you install version 3.5.0, a 3.5 folder will be created. What you'll want to do is copy packages from the 3.4 folder to the 3.5 folder and then update your packages. Or delete the 3.5 folder, rename the 3.4 folder to 3.5, and then update your packages. For more information see the Windows FAQ: https://cran.r-project.org/bin/windows/base/rw-FAQ.html#What_0027s-the-best-way-to-upgrade_003f 
 
 ## Update RStudio
 
