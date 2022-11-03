@@ -1,7 +1,7 @@
 ---
 title: "Installing and Updating R, RStudio and R Packages"
 author: "Clay Ford"
-date: "September 2022"
+date: "November 2022"
 output: 
   html_document:
     toc: true
@@ -17,13 +17,13 @@ knitr::opts_chunk$set(echo = TRUE)
 **Windows**:
 
 1. go to https://cloud.r-project.org/bin/windows/base/
-2. click the "Download R 4.2.1 for Windows" link.
+2. click the "Download R 4.2.2 for Windows" link.
 3. When the file finishes downloading, double-click to install. You should be able to just click "Next" to all dialogs to finish the installation.
  
 **Mac**:
 
 1. go to https://cloud.r-project.org/bin/macosx/
-2. click the link "R-4.2.1.pkg"
+2. click the link "R-4.2.2.pkg"
 3. When the file finishes downloading, double-click to install. You should be able to just click "Next" to all dialogs to finish the installation.
  
 **Linux**:
@@ -34,8 +34,8 @@ knitr::opts_chunk$set(echo = TRUE)
  
 ## Download and Install RStudio Desktop
  
-1. go to https://rstudio.com/products/rstudio/download/#download
-2. Under Step 2 "Download RStudio Desktop" there should be a download option recommended for your system. Click the button to download RStudio Desktop.
+1. go to https://posit.co/download/rstudio-desktop/
+2. Scroll down to Step 2 "Install RStudio Desktop" and click the button to download RStudio Desktop for your operating system.
 3. When the file finishes downloading, do what you would normally do to install a program on your system
  
 NOTE: make sure you download RStudio Desktop, not RStudio Server.
