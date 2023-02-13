@@ -39,8 +39,11 @@ knitr::opts_chunk$set(echo = TRUE)
 1. go to https://posit.co/download/rstudio-desktop/
 2. Click the Blue button under "2: Install RStudio"
 3. When the file finishes downloading, do what you would normally do to install a program on your system
+4. Start RStudio and ensure it opens with no error messages. You should see something similar to the image below.
  
 NOTE: **The current version of RStudio requires macOS 11+.** If you are running an older version of macOS (e.g., High Sierra, 10.13), you will need to download an older version of RStudio from [this page](https://docs.posit.co/previous-versions/rstudio/) (e.g., [RStudio 2021.09.4](https://dailies.rstudio.com/version/2021.09.4+403.pro3/))
+
+![](img/rstudio.jpg)
 
 ## Download and Install R Packages
 
