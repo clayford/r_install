@@ -1,7 +1,7 @@
 ---
 title: "Installing and Updating R, RStudio and R Packages"
 author: "Clay Ford"
-date: "November 2022"
+date: "February 2023"
 output: 
   html_document:
     toc: true
@@ -23,7 +23,9 @@ knitr::opts_chunk$set(echo = TRUE)
 **Mac**:
 
 1. go to https://cloud.r-project.org/bin/macosx/
-2. click the link "R-4.2.2.pkg"
+2. click either "R-4.2.2-arm64.pkg" or "R-4.2.2.pkg" depending on your operating system.
+    * Select "R-4.2.2-arm64.pkg" if you're using macOS 11 (Big Sur) or higher on a M1 or higher Mac.
+    * Select "R-4.2.2.pkg" if you're using macOS 10.13 (High Sierra) or higher on an Intel Mac.
 3. When the file finishes downloading, double-click to install. You should be able to just click "Next" to all dialogs to finish the installation.
  
 **Linux**:
@@ -35,10 +37,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Download and Install RStudio Desktop
  
 1. go to https://posit.co/download/rstudio-desktop/
-2. Scroll down to Step 2 "Install RStudio Desktop" and click the button to download RStudio Desktop for your operating system.
+2. Click the Blue button under "2: Install RStudio"
 3. When the file finishes downloading, do what you would normally do to install a program on your system
  
-NOTE: make sure you download RStudio Desktop, not RStudio Server.
+NOTE: **The current version of RStudio requires macOS 11+.** If you are running an older version of macOS (e.g., High Sierra, 10.13), you will need to download an older version of RStudio from [this page](https://docs.posit.co/previous-versions/rstudio/) (e.g., [RStudio 2021.09.4](https://dailies.rstudio.com/version/2021.09.4+403.pro3/))
 
 ## Download and Install R Packages
 
