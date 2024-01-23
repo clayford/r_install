@@ -1,7 +1,7 @@
 ---
 title: "Installing and Updating R, RStudio and R Packages"
 author: "Clay Ford"
-date: "September 2023"
+date: "January 2024"
 output: 
   html_document:
     toc: true
@@ -17,15 +17,15 @@ knitr::opts_chunk$set(echo = TRUE)
 **Windows**:
 
 1. go to https://cloud.r-project.org/bin/windows/base/
-2. click the "Download R 4.3.1 for Windows" link.
+2. click the "Download R 4.3.2 for Windows" link.
 3. When the file finishes downloading, double-click to install. You should be able to just click "Next" to all dialogs to finish the installation.
  
 **Mac**:
 
 1. go to https://cloud.r-project.org/bin/macosx/
-2. click either "R-4.3.1-arm64.pkg" or "R-4.3.1-x86_64.pkg" depending on your operating system.
-    * Select "R-4.3.1-arm64.pkg" if you're using macOS 11 (Big Sur) or higher on a M1 or higher Mac.
-    * Select "R-4.3.1-x86_64.pkg" if you're using macOS 10.13 (High Sierra) or higher on an Intel Mac.
+2. click either "R-4.3.2-arm64.pkg" or "R-4.3.2-x86_64.pkg" depending on your operating system.
+    * Select "R-4.3.2-arm64.pkg" if you're using macOS 11 (Big Sur) or higher on a M1 or higher Mac.
+    * Select "R-4.3.2-x86_64.pkg" if you're using macOS 10.13 (High Sierra) or higher on an Intel Mac.
     * If you're not sure which to choose, visit [this page](https://support.apple.com/en-us/HT201581) to find out what kind of operating system and chip set your Mac has.
 3. When the file finishes downloading, double-click to install. You should be able to just click "Next" to all dialogs to finish the installation.
  
