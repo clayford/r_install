@@ -42,7 +42,7 @@ knitr::opts_chunk$set(echo = TRUE)
 3. When the file finishes downloading, do what you would normally do to install a program on your system
 4. Start RStudio and ensure it opens with no error messages. You should see something similar to the image below.
  
-NOTE: **The current version of RStudio requires macOS 11+.** If you are running an older version of macOS (e.g., High Sierra, 10.13), you will need to download an older version of RStudio from [this page](https://docs.posit.co/previous-versions/rstudio/) (e.g., [RStudio 2021.09.4](https://dailies.rstudio.com/version/2021.09.4+403.pro3/))
+NOTE: **The current version of RStudio requires macOS 12+.** If you are running an older version of macOS, you will need to download an older version of RStudio from [https://docs.posit.co/previous-versions/rstudio/](https://docs.posit.co/previous-versions/rstudio/). See [This post](https://community.rstudio.com/t/rstudio-desktop-releases-on-unsupported-versions-of-macos/176074?_gl=1*os3sl6*_ga*NTMzMzgwMzYxLjE2OTk5MDk3MDk.*_ga_2C0WZ1JHG0*MTcwNjAyMjAyNC4xOS4xLjE3MDYwMjIwNjMuMC4wLjA.) on the RStudio community forum for  a list of RStudio releases certified for each version of MacOS when the operating system was supported.
 
 ![](img/rstudio.jpg)
 
